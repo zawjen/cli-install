@@ -1,0 +1,23 @@
+[
+    {
+      "type": "install",
+      "url": "http://example.com/installer.exe"
+    },
+    {
+      "type": "git",
+      "url": "http://example.com/repo.git"
+    },
+    {
+      "type": "command",
+      "command": [
+        "echo Hello, World!",
+        "dir",
+        "ping 127.0.0.1 -n 1"
+      ]
+    },
+    {
+      "type": "script",
+      "path": "./run_script.sh"
+    }
+  ]
+  
