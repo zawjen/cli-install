@@ -1,0 +1,11 @@
+[
+    {
+      "type": "command",
+      "command": [
+        "echo Hello, World!",
+        "dir",
+        "ping 127.0.0.1 -n 1"
+      ]
+    }
+  ]
+  
