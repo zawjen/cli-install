@@ -1,11 +1,10 @@
 [
-    {
-      "type": "command",
-      "command": [
-        "echo Hello, World!",
-        "dir",
-        "ping 127.0.0.1 -n 1"
-      ]
-    }
-  ]
-  
+  {
+    "type": "browser",
+    "url": [
+      "https://github.com/zawjen/dataset-service",
+      "https://github.com/zawjen/ds-lisan-ul-arab",
+      "https://github.com/zawjen/cli-dataset-tagger"
+    ]
+  }
+]

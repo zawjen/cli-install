@@ -1,6 +1,8 @@
 ﻿import json
 import time
 from sdk.task import Task 
+from sdk.task_browser import TaskBrowser
+from sdk.task_explorer import TaskExplorer
 from sdk.task_install import TaskInstall 
 from sdk.task_git import TaskGit 
 from sdk.task_command import TaskCommand 
@@ -39,6 +41,10 @@ class TaskRunner:
                 TaskCommand().execute(task)
             elif task_type == 'script':
                 TaskScript().execute(task)
+            elif task_type == 'browser':
+                TaskBrowser().execute(task)
+            elif task_type == 'explorer':
+                TaskExplorer().execute(task)
             else:
                 self.logger.log(f"Unknown task type: {task_type}", start_time)
         except Exception as e:
